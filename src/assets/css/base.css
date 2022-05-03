@@ -1,0 +1,32 @@
+/** css  初始化文件*/
+body,ul,li,p,h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: 0;
+}
+body {
+    font-size: 14px;
+    font-family:'微软雅黑', 'Arial Narrow', Arial, sans-serif;
+    max-width: 750px;
+    margin: 0 auto
+}
+
+/* 移动端布局*/
+html {
+    font-size: 13.33333333vw;
+}
+
+@media  (min-width: 750px) {
+    html {
+        font-size: 100px;
+    }
+}
+    
